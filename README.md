@@ -45,7 +45,13 @@ After obtaining SAE features, open sts.ipynb to calculate STS and correlation co
 ## Citing this work
 If you find the work useful, please cite the accompanying paper:
 ```
-
+@inproceedings{
+zhang2026sae,
+title={{SAE} as a Crystal Ball: Interpretable Features Predict Cross-domain Transferability of {LLM}s without Training},
+author={Qi Zhang and Yifei Wang and Xiaohan Wang and Jiajun Chai and Guojun Yin and Wei Lin and Yisen Wang},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+}
 ```
 
 
