@@ -78,7 +78,7 @@ def get_intervention_hook(
             activation_set=torch.cat((activation_set,features))
             print(activation_set.size())
         else:
-            torch.save(activation_set,'activation_qwen_limo_base.pt')
+            torch.save(activation_set,'../activations/activation_limo_base_qwen_st.pt')
             exit()
         
         print(activation_set.size())
