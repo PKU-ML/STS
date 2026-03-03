@@ -3,7 +3,7 @@ from verl.utils.reward_score.math import last_boxed_only_string, remove_boxed
 from transformers import AutoTokenizer
 import numpy as np
 from eval_utils import *
-from sae_utils import add_hooks, get_intervention_hook, get_clamp_hook
+from sae_utils import add_hooks, get_intervention_hook
 from sae_lens import SAE
 
 def load_llm(args):
