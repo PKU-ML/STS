@@ -4,3 +4,6 @@ This repository includes a PyTorch implementation of the ICLR 2026 paper [SAE as
 
 
 STS is a metric that can predict the transferability of LLMs before training. STS identifies shifted dimensions in SAE representations and calculates their correlations with downstream domains. Extensive experiments across multiple models and domains show that STS accurately predicts the transferability of supervised fine-tuning, achieving Pearson correlation coefficients above 0.7 with actual performance changes.
+
+
+![image](img1.png)
