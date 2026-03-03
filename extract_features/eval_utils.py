@@ -9,7 +9,6 @@ from sae_utils import add_hooks, get_intervention_hook
 from sae_lens import SAE
 
 def extract_response_and_answer(json_file_path):
-    """提取JSON文件中所有题目的response和answer"""
     
     with open(json_file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
